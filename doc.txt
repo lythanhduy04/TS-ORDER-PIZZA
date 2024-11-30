@@ -1,0 +1,26 @@
+dùng https://parceljs.org/getting-started/webapp/
+buil app với typescript
+
+lệnh
+1
+        npn init -y
+
+2
+        yarn add --dev parcel
+
+        npm install --save-dev parcel
+
+
+3 add file ts on file html
+ex:    <script src="ts/index.ts" type="module" defer></script>
+
+4run
+        yarn parcel src/index.html
+        npx parcel src/index.html(*.html)
+
+
+tạo file json chạy local có dữ liệu
+        dow:
+        npm install -g json-server
+        run:
+        json-server --watch db.json
